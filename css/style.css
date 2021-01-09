@@ -765,16 +765,22 @@ body {
     height: 180px;
     margin: 10px 0; 
     outline: none;
+    resize: none;
 }
 .btn-send{
     width: 100%;
-    padding: 20px 0;
+    padding: 15px 0;
     background: var(--pink-color);
     border: none;
     color: #fff;
     font-size: 1.2rem;
     font-weight: bold;
     border-radius: 5px;
+    transition: all 0.8s;
+}
+.btn-send:hover{
+    background: #000000;
+    color: #fff;
 }
 /* contact list */
 .contact-list{
@@ -794,6 +800,13 @@ body {
 .contact-list__item p{
     font-size: 1rem;
     line-height: 2rem;
+}
+/* MAP */
+.contact-map{
+    margin: 60px 0;
+}
+.contact-map iframe{
+    width: 100%;
 }
 
 /* FOOTER */
